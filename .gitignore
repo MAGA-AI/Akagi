@@ -1,0 +1,31 @@
+venv
+__pycache__
+
+dist
+logs/*.log
+
+docker
+compile
+
+mjai_bot/mortal/libriichi.so
+mjai_bot/mortal3p/libriichi3p.so
+
+playwright_data
+
+# Python/venv
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Logs / cache / big artifacts
+logs/
+*.log
+
+# (学習済みモデル等を置く場合)
+models/
+*.pt
+*.pth
+*.bin
